@@ -321,13 +321,38 @@ class Address extends \Faker\Provider\Address
         'Tunisko', 'Turecko', 'Turkménsko', 'Tuvalu', 'Uganda', 'Ukrajina', 'Uruguaj', 'Uzbekistan', 'Vanuatu', 'Vatikán', 'Venezuela', 'Vietnam',
         'Východný Timor', 'Zambia', 'Zimbabwe', 'Zvrchovaný vojenský špitálsky rád sv. Jána Jeruzalemského z Ródu a Malty',
     ];
+
+    protected static $street = [
+        'Jarabinová', 'Jarná', 'Jaseňová', 'Jaspisová ulica', 'Javornícka', 'Javorová', 'Jazmínová', 'Jedľová', 'Jegorovova', 'Jelšová', 'Jesenná',
+        'Jilemnického', 'Jiráskova', 'Jozefa Mistríka', 'K lomu', 'Kalinčiakova', 'Kapitána Jaroša', 'Kapitána Nálepku', 'Kapitulská', 'Karpatská',
+        'Katovná', 'Kláry Jarunkovej', 'Klenová ulica', 'Kollárova', 'Komenského', 'Kostiviarska cesta', 'Kovačická ulica', 'Králická cesta',
+        'Kráľovohoľská', 'Krátka', 'Kremeňová ulica', 'Kremnička', 'Krivánska', 'Krížna', 'Kukučínova', 'Kuzmányho', 'Kvetinová', 'Kyjevské námestie',
+        'Ladislava Hudeca', 'Ľaliová', 'Laskomerská', 'Lazovná', 'Lesná', 'Letná', 'Liesková ulica', 'Limbová', 'Lipová', 'Lúčičky', 'Ľuda Ondrejova',
+        'Ľupčianska', 'M. Hattalu', 'M. M. Hodžu', 'M. Rázusa', 'Magurská', 'Majerská cesta', 'Malachitová', 'Malachovská cesta', 'Marka Čulena',
+        'Mateja Bela', 'Medená', 'Medený Hámor', 'Mičinská cesta', 'Mieru', 'Mikuláša Kováča', 'Mistríka', 'Mládežnícka', 'Mladých budovateľov',
+        'Mlynská', 'Mosadzná', 'Moskovská', 'Murgašova', 'Muškátová ulica', 'Na Čiertolí', 'Na Dolinky', 'Na Graniari', 'Na Hrbe', 'Na Karlove',
+        'Na Kútinách', 'Na Lúčkach', 'Na Motyčinách', 'Na plaváreň', 'Na Skalici', 'Na Starej tehelni', 'Na Tále', 'Na Troskách', 'Na úbočí', 'Na Uhlisku',
+        'Na Zábave', 'Nad plážou', 'Nám. Ľ. Štúra', 'Nám. slobody', 'Nám. Š. Moysesa', 'Námestie Ludvika Svobodu', 'Námestie SNP', 'Národná', 'Nemčianska cesta',
+        'Nešporova', 'Nová', 'Nové Kalište', 'Nový Svet', 'Oblačná', 'Odbojárov', 'Okružná', 'Opálová', 'Oremburská', 'Ortutská cesta', 'Ovčiarska ulica',
+        'Ovocná', 'Pánska', 'Partizánska cesta', 'Pestovateľská', 'Petelenova', 'Petra Karvaša', 'Pieninská', 'Plánková', 'Platinová ulica', 'Pod Banošom',
+        'Pod cintorínom', 'Pod Dúbravou', 'Pod Hôrkou', 'Pod Jesenským vŕškom', 'Pod Kalváriou', 'Pod rybou', 'Pod Skalkou', 'Pod Stráňou', 'Pod Suchým vrchom',
+        'Pod Turíčkou', 'Pod Urpínom', 'Pod vysielačom', 'Podbeľová ulica', 'Podháj', 'Podjavorinskej', 'Podlavická cesta', 'Poľná', 'Poľovnícka',
+        'Ponická ulica', 'Povstalecká cesta', 'Priehrada', 'Priemyselná ulica', 'Profesora Sáru', 'Pršianska cesta', 'Prvosienková ulica', 'Radomská', 'Radvaň',
+        'Radvanská', 'Rakytovská cesta', 'Robotnícka', 'Rubínová', 'Rudelinova ulica', 'Rudlovská cesta', 'Rudlovská cesta', 'Rudlovská cesta', 'Rudohorská',
+        'Rumelková ulica', 'Ruttkaya Nedeckého', 'Ružová', 'Sadová', 'Sásovská cesta', 'Senická cesta', 'Severná', 'Sitnianska', 'Skubínska cesta', 'Skuteckého',
+        'Sládkovičova', 'Slnečná', 'Slnečné stráne', 'Smaragdová', 'Smreková', 'Sokolovská', 'Spojová', 'Starohorská', 'Stavebná', 'Stoličková', 'Stránska',
+        'Strážovská', 'Stredná', 'Strieborné námestie', 'Strmá', 'Stromová', 'Stupy', 'Surovská', 'Šalgotarjánska', 'Šalkovská cesta', 'Šimona Jurovského',
+        'Šípková', 'Školská', 'Šoltésovej', 'Štadlerovo nábrežie', 'Štefánikovo nábrežie', 'Švermova', 'T. Andrašovana', 'Tafírová', 'Tajovského', 'Tajovského',
+        'Tatranská', 'Technická ulica', 'Terézie Vansovej', 'Tibora Andrašovana', 'Tichá', 'Timravy', 'Topásová ulica', 'Topoľová', 'Trieda Hradca Králové',
+        'Trieda SNP', 'Trnková', 'Tulipánová', 'Tulská', 'Tyrkysová ulica', 'Uľanská cesta', 'Ulica Jakuba Pribicera', 'Ulica Jána Móryho', 'Ulica richtára Ondreja',
+        'Ulica Svetozára Stračinu', 'Ulička', 'Vajanského námestie', 'Veterná', 'Viestova', 'Višňová', 'Vŕbová', 'Vršacká ulica', 'Wolkerova', 'Zadarská ulica',
+        'Zafírová ulica', 'Záhradná', 'Záhumnie', 'Závoz', 'Zdenka Mikulu', 'Zelená', 'Zimná',
+    ];
+
     protected static $cityFormats = [
         '{{cityName}}',
     ];
-    protected static $streetNameFormats = [
-        '{{firstName}} {{streetSuffix}}',
-        '{{lastName}} {{streetSuffix}}',
-    ];
+
     protected static $streetAddressFormats = [
         '{{streetName}} {{buildingNumber}}',
     ];
@@ -339,5 +364,15 @@ class Address extends \Faker\Provider\Address
     public static function cityName()
     {
         return static::randomElement(static::$cityName);
+    }
+
+    /**
+     * @example 'Záhradná'
+     *
+     * @return string
+     */
+    public function streetName()
+    {
+        return static::randomElement(static::$street);
     }
 }
