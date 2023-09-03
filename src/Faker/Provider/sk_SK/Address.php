@@ -322,7 +322,7 @@ class Address extends \Faker\Provider\Address
         'Východný Timor', 'Zambia', 'Zimbabwe', 'Zvrchovaný vojenský špitálsky rád sv. Jána Jeruzalemského z Ródu a Malty',
     ];
 
-    protected static $street = [
+    protected static array $street = [
         'Jarabinová', 'Jarná', 'Jaseňová', 'Jaspisová ulica', 'Javornícka', 'Javorová', 'Jazmínová', 'Jedľová', 'Jegorovova', 'Jelšová', 'Jesenná',
         'Jilemnického', 'Jiráskova', 'Jozefa Mistríka', 'K lomu', 'Kalinčiakova', 'Kapitána Jaroša', 'Kapitána Nálepku', 'Kapitulská', 'Karpatská',
         'Katovná', 'Kláry Jarunkovej', 'Klenová ulica', 'Kollárova', 'Komenského', 'Kostiviarska cesta', 'Kovačická ulica', 'Králická cesta',
