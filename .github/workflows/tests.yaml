@@ -14,6 +14,7 @@ jobs:
     name: "PHPUnit (${{ matrix.php-version }})"
 
     strategy:
+      fail-fast: false
       matrix:
         experimental:
           - false
@@ -30,7 +31,7 @@ jobs:
 
     steps:
       - name: "Checkout code"
-        uses: "actions/checkout@v3"
+        uses: "actions/checkout@v4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@v2"
