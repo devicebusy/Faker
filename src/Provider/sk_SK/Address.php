@@ -296,7 +296,7 @@ class Address extends \Faker\Provider\Address
 
     protected static $buildingNumber = ['%####', '%###', '%##'];
     protected static $streetSuffix = [
-        'Alley', 'Avenue', 'Branch', 'Bridge', 'Brook', 'Brooks', 'Burg', 'Burgs', 'Bypass', 'Camp', 'Canyon', 'Cape', 'Causeway', 'Center', 'Centers', 'Circle', 'Circles', 'Cliff', 'Cliffs', 'Club', 'Common', 'Corner', 'Corners', 'Course', 'Court', 'Courts', 'Cove', 'Coves', 'Creek', 'Crescent', 'Crest', 'Crossing', 'Crossroad', 'Curve', 'Dale', 'Dam', 'Divide', 'Drive', 'Drive', 'Drives', 'Estate', 'Estates', 'Expressway', 'Extension', 'Extensions', 'Fall', 'Falls', 'Ferry', 'Field', 'Fields', 'Flat', 'Flats', 'Ford', 'Fords', 'Forest', 'Forge', 'Forges', 'Fork', 'Forks', 'Fort', 'Freeway', 'Garden', 'Gardens', 'Gateway', 'Glen', 'Glens', 'Green', 'Greens', 'Grove', 'Groves', 'Harbor', 'Harbors', 'Haven', 'Heights', 'Highway', 'Hill', 'Hills', 'Hollow', 'Inlet', 'Inlet', 'Island', 'Island', 'Islands', 'Islands', 'Isle', 'Isle', 'Junction', 'Junctions', 'Key', 'Keys', 'Knoll', 'Knolls', 'Lake', 'Lakes', 'Land', 'Landing', 'Lane', 'Light', 'Lights', 'Loaf', 'Lock', 'Locks', 'Locks', 'Lodge', 'Lodge', 'Loop', 'Mall', 'Manor', 'Manors', 'Meadow', 'Meadows', 'Mews', 'Mill', 'Mills', 'Mission', 'Mission', 'Motorway', 'Mount', 'Mountain', 'Mountain', 'Mountains', 'Mountains', 'Neck', 'Orchard', 'Oval', 'Overpass', 'Park', 'Parks', 'Parkway', 'Parkways', 'Pass', 'Passage', 'Path', 'Pike', 'Pine', 'Pines', 'Place', 'Plain', 'Plains', 'Plains', 'Plaza', 'Plaza', 'Point', 'Points', 'Port', 'Port', 'Ports', 'Ports', 'Prairie', 'Prairie', 'Radial', 'Ramp', 'Ranch', 'Rapid', 'Rapids', 'Rest', 'Ridge', 'Ridges', 'River', 'Road', 'Road', 'Roads', 'Roads', 'Route', 'Row', 'Rue', 'Run', 'Shoal', 'Shoals', 'Shore', 'Shores', 'Skyway', 'Spring', 'Springs', 'Springs', 'Spur', 'Spurs', 'Square', 'Square', 'Squares', 'Squares', 'Station', 'Station', 'Stravenue', 'Stravenue', 'Stream', 'Stream', 'Street', 'Street', 'Streets', 'Summit', 'Summit', 'Terrace', 'Throughway', 'Trace', 'Track', 'Trafficway', 'Trail', 'Trail', 'Tunnel', 'Tunnel', 'Turnpike', 'Turnpike', 'Underpass', 'Union', 'Unions', 'Valley', 'Valleys', 'Via', 'Viaduct', 'View', 'Views', 'Village', 'Village', 'Villages', 'Ville', 'Vista', 'Vista', 'Walk', 'Walks', 'Wall', 'Way', 'Ways', 'Well', 'Wells',
+        'Ulička', 'Ulica', 'Pobočka', 'Most', 'Potok', 'Potoky', 'Hrad', 'Hrady', 'Obchvat', 'Tábor', 'Kaňon', 'Mys', 'Dámkový prístup', 'Centrum', 'Centrá', 'Kruh', 'Kruhy', 'Útes', 'Útesy', 'Klub', 'Spoločný', 'Roh', 'Rohy', 'Kurz', 'Súd', 'Súdy', 'Zátoka', 'Zátoky', 'Potok', 'Polmesiac', 'Hrebeň', 'Križovatka', 'Kríž', 'Zákruta', 'Údolie', 'Priehrada', 'Rozvod', 'Jazda', 'Jazda', 'Jazdy', 'Majetok', 'Majetky', 'Rýchlostná cesta', 'Rozšírenie', 'Rozšírenia', 'Pád', 'Vodopády', 'Trajekt', 'Pole', 'Polia', 'Plochý', 'Ploché', 'Brodiť', 'Brody', 'Les', 'Kováreň', 'Kovárne', 'Rozvetvenie', 'Rozvetvenia', 'Fort', 'Diaľnica', 'Záhrada', 'Záhrady', 'Brána', 'Údolie', 'Údolia', 'Zelený', 'Zelené', 'Háj', 'Háje', 'Prístav', 'Prístavy', 'Prístavisko', 'Výšiny', 'Diaľnica', 'Kopiec', 'Kopce', 'Dutina', 'Záliv', 'Záliv', 'Ostrov', 'Ostrov', 'Ostrovy', 'Ostrovy', 'Ostrovček', 'Ostrovček', 'Križovatka', 'Križovatky', 'Kľúč', 'Kľúče', 'Kopček', 'Kopčeky', 'Jazero', 'Jazerá', 'Pozemok', 'Prístav', 'Cestička', 'Svetlo', 'Svetlá', 'Bochník', 'Zámok', 'Zámky', 'Zámky', 'Chata', 'Chata', 'Slučka', 'Obchodné centrum', 'Panstvo', 'Panstvá', 'Lúka', 'Lúky', 'Priechody', 'Mlyn', 'Mlyny', 'Misie', 'Misie', 'Diaľnica', 'Hore', 'Hora', 'Hora', 'Hory', 'Hory', 'Krč', 'Sad', 'Ovál', 'Nadjazd', 'Park', 'Parky', 'Parkovisko', 'Parkoviská', 'Priesmyk', 'Priechod', 'Chodník', 'Piket', 'Borovica', 'Borovice', 'Miesto', 'Planina', 'Planiny', 'Planiny', 'Námestie', 'Námestie', 'Body', 'Body', 'Prístav', 'Prístav', 'Prístavy', 'Prístavy', 'Prérie', 'Prérie', 'Radiál', 'Rampa', 'Ranč', 'Rýchly', 'Rýchle', 'Oddych', 'Hrebeň', 'Hrebene', 'Rieka', 'Cesta', 'Cesta', 'Cesty', 'Cesty', 'Trasa', 'Rada', 'Rue', 'Beh', 'Miel', 'Miele', 'Pobrežie', 'Pobrežia', 'Nebeská cesta', 'Jar', 'Jarné', 'Jarné', 'Ostruha', 'Ostruhy', 'Námestie', 'Námestie', 'Námestia', 'Námestia', 'Stanica', 'Stanica', 'Stravenue', 'Stravenue', 'Potok', 'Potok', 'Ulica', 'Ulica', 'Ulice', 'Vrchol', 'Vrchol', 'Terasa', 'Priechod', 'Stopa', 'Dráha', 'Cesta', 'Chodník', 'Chodník', 'Tunel', 'Tunel', 'Diaľnica', 'Diaľnica', 'Podchod', 'Zväz', 'Zväzy', 'Údolie', 'Údolia', 'Cesta', 'Viadukt', 'Výhľad', 'Výhľady', 'Dedina', 'Dedina', 'Dediny', 'Mesto', 'Výhľad', 'Výhľad', 'Chôdza', 'Chôdze', 'Stena', 'Cesta', 'Cesty', 'Studňa', 'Studne',
     ];
     protected static $postcode = ['### ##'];
 
@@ -321,13 +321,38 @@ class Address extends \Faker\Provider\Address
         'Tunisko', 'Turecko', 'Turkménsko', 'Tuvalu', 'Uganda', 'Ukrajina', 'Uruguaj', 'Uzbekistan', 'Vanuatu', 'Vatikán', 'Venezuela', 'Vietnam',
         'Východný Timor', 'Zambia', 'Zimbabwe', 'Zvrchovaný vojenský špitálsky rád sv. Jána Jeruzalemského z Ródu a Malty',
     ];
+
+    protected static array $street = [
+        'Jarabinová', 'Jarná', 'Jaseňová', 'Jaspisová ulica', 'Javornícka', 'Javorová', 'Jazmínová', 'Jedľová', 'Jegorovova', 'Jelšová', 'Jesenná',
+        'Jilemnického', 'Jiráskova', 'Jozefa Mistríka', 'K lomu', 'Kalinčiakova', 'Kapitána Jaroša', 'Kapitána Nálepku', 'Kapitulská', 'Karpatská',
+        'Katovná', 'Kláry Jarunkovej', 'Klenová ulica', 'Kollárova', 'Komenského', 'Kostiviarska cesta', 'Kovačická ulica', 'Králická cesta',
+        'Kráľovohoľská', 'Krátka', 'Kremeňová ulica', 'Kremnička', 'Krivánska', 'Krížna', 'Kukučínova', 'Kuzmányho', 'Kvetinová', 'Kyjevské námestie',
+        'Ladislava Hudeca', 'Ľaliová', 'Laskomerská', 'Lazovná', 'Lesná', 'Letná', 'Liesková ulica', 'Limbová', 'Lipová', 'Lúčičky', 'Ľuda Ondrejova',
+        'Ľupčianska', 'M. Hattalu', 'M. M. Hodžu', 'M. Rázusa', 'Magurská', 'Majerská cesta', 'Malachitová', 'Malachovská cesta', 'Marka Čulena',
+        'Mateja Bela', 'Medená', 'Medený Hámor', 'Mičinská cesta', 'Mieru', 'Mikuláša Kováča', 'Mistríka', 'Mládežnícka', 'Mladých budovateľov',
+        'Mlynská', 'Mosadzná', 'Moskovská', 'Murgašova', 'Muškátová ulica', 'Na Čiertolí', 'Na Dolinky', 'Na Graniari', 'Na Hrbe', 'Na Karlove',
+        'Na Kútinách', 'Na Lúčkach', 'Na Motyčinách', 'Na plaváreň', 'Na Skalici', 'Na Starej tehelni', 'Na Tále', 'Na Troskách', 'Na úbočí', 'Na Uhlisku',
+        'Na Zábave', 'Nad plážou', 'Nám. Ľ. Štúra', 'Nám. slobody', 'Nám. Š. Moysesa', 'Námestie Ludvika Svobodu', 'Námestie SNP', 'Národná', 'Nemčianska cesta',
+        'Nešporova', 'Nová', 'Nové Kalište', 'Nový Svet', 'Oblačná', 'Odbojárov', 'Okružná', 'Opálová', 'Oremburská', 'Ortutská cesta', 'Ovčiarska ulica',
+        'Ovocná', 'Pánska', 'Partizánska cesta', 'Pestovateľská', 'Petelenova', 'Petra Karvaša', 'Pieninská', 'Plánková', 'Platinová ulica', 'Pod Banošom',
+        'Pod cintorínom', 'Pod Dúbravou', 'Pod Hôrkou', 'Pod Jesenským vŕškom', 'Pod Kalváriou', 'Pod rybou', 'Pod Skalkou', 'Pod Stráňou', 'Pod Suchým vrchom',
+        'Pod Turíčkou', 'Pod Urpínom', 'Pod vysielačom', 'Podbeľová ulica', 'Podháj', 'Podjavorinskej', 'Podlavická cesta', 'Poľná', 'Poľovnícka',
+        'Ponická ulica', 'Povstalecká cesta', 'Priehrada', 'Priemyselná ulica', 'Profesora Sáru', 'Pršianska cesta', 'Prvosienková ulica', 'Radomská', 'Radvaň',
+        'Radvanská', 'Rakytovská cesta', 'Robotnícka', 'Rubínová', 'Rudelinova ulica', 'Rudlovská cesta', 'Rudlovská cesta', 'Rudlovská cesta', 'Rudohorská',
+        'Rumelková ulica', 'Ruttkaya Nedeckého', 'Ružová', 'Sadová', 'Sásovská cesta', 'Senická cesta', 'Severná', 'Sitnianska', 'Skubínska cesta', 'Skuteckého',
+        'Sládkovičova', 'Slnečná', 'Slnečné stráne', 'Smaragdová', 'Smreková', 'Sokolovská', 'Spojová', 'Starohorská', 'Stavebná', 'Stoličková', 'Stránska',
+        'Strážovská', 'Stredná', 'Strieborné námestie', 'Strmá', 'Stromová', 'Stupy', 'Surovská', 'Šalgotarjánska', 'Šalkovská cesta', 'Šimona Jurovského',
+        'Šípková', 'Školská', 'Šoltésovej', 'Štadlerovo nábrežie', 'Štefánikovo nábrežie', 'Švermova', 'T. Andrašovana', 'Tafírová', 'Tajovského', 'Tajovského',
+        'Tatranská', 'Technická ulica', 'Terézie Vansovej', 'Tibora Andrašovana', 'Tichá', 'Timravy', 'Topásová ulica', 'Topoľová', 'Trieda Hradca Králové',
+        'Trieda SNP', 'Trnková', 'Tulipánová', 'Tulská', 'Tyrkysová ulica', 'Uľanská cesta', 'Ulica Jakuba Pribicera', 'Ulica Jána Móryho', 'Ulica richtára Ondreja',
+        'Ulica Svetozára Stračinu', 'Ulička', 'Vajanského námestie', 'Veterná', 'Viestova', 'Višňová', 'Vŕbová', 'Vršacká ulica', 'Wolkerova', 'Zadarská ulica',
+        'Zafírová ulica', 'Záhradná', 'Záhumnie', 'Závoz', 'Zdenka Mikulu', 'Zelená', 'Zimná',
+    ];
+
     protected static $cityFormats = [
         '{{cityName}}',
     ];
-    protected static $streetNameFormats = [
-        '{{firstName}} {{streetSuffix}}',
-        '{{lastName}} {{streetSuffix}}',
-    ];
+
     protected static $streetAddressFormats = [
         '{{streetName}} {{buildingNumber}}',
     ];
@@ -339,5 +364,15 @@ class Address extends \Faker\Provider\Address
     public static function cityName()
     {
         return static::randomElement(static::$cityName);
+    }
+
+    /**
+     * @example 'Záhradná'
+     *
+     * @return string
+     */
+    public function streetName()
+    {
+        return static::randomElement(static::$street);
     }
 }
